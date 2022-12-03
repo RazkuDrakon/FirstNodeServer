@@ -1,0 +1,23 @@
+<h2>LISTADO DE ARTICULOS</h2>
+<br><br>
+
+{{#each articulos}}
+<table>
+    <td>
+        <h1>Imagen</h1>
+    </td>
+    <td>
+       <b>{{nombre}}</b></p>
+       <b>ID: </b>{{id}}</p>
+       <b>Nombre: </b>{{nombre}}</p>
+       <b>Precio: </b>{{precio}}</p>
+
+    <a href="/articulos/modificacion">Modificar</a>
+    <a href="/articulos/borrar">Borrar</a><br></p>
+    
+    ************************************************************************************** </p>
+    </td>
+</table>
+{{/each}}
+
+<a href="/articulos">Volver</a>
